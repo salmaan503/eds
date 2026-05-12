@@ -282,6 +282,7 @@ main img {
   max-width: 100%;
   width: auto;
   height: auto;
+  border: 2px solid red;
 }
 
 .icon {
@@ -294,10 +295,7 @@ main img {
   height: 100%;
   width: 100%;
 }
-.columns img {
-    width: 100%;
-    border-radius: 12px;
-}
+
 
 /* sections */
 main > .section {
