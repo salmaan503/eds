@@ -1,0 +1,26 @@
+.invoice.block {
+  background-color: #b5c418; /* Matching your output background */
+ color: aquamarine;
+}
+
+.invoice-column-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  /* Auto-responsive columns: Har column min 150px layout me adjust hoga */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  align-items: center;
+}
+
+.invoice-column-item {
+  font-family: inherit;
+  font-weight: 500;
+  color: #111;
+  word-break: break-word;
+}
+
+.invoice-column-item p {
+  margin: 0;
+}

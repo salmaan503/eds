@@ -1,0 +1,35 @@
+.eds-custom-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-field-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-field-wrapper label {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.form-field-wrapper input,
+.form-field-wrapper select,
+.form-field-wrapper textarea {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.form-success-msg {
+  padding: 16px;
+  background-color: #d4edda;
+  color: #155724;
+  border-radius: 6px;
+  text-align: center;
+}
